@@ -1,0 +1,100 @@
+2024-12-31 14:22:23 DEBUG AnnotationConfigApplicationContext:674 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@429bffaa
+2024-12-31 14:22:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-12-31 14:22:23 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/order/service/OrderService.class]
+2024-12-31 14:22:23 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/EmployeeService.class]
+2024-12-31 14:22:23 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/aspect/TimerAspect.class]
+2024-12-31 14:22:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-12-31 14:22:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-12-31 14:22:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-12-31 14:22:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-12-31 14:22:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'appConfig'
+2024-12-31 14:22:23 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.timer.aspect.TimerAspect.calculateMethodExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2024-12-31 14:22:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'orderService'
+2024-12-31 14:22:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'employeeService'
+2024-12-31 14:22:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'timerAspect'
+2024-12-31 14:22:23 INFO  EmployeeService:14 - Performing Employee tasks
+2024-12-31 14:23:41 DEBUG AnnotationConfigApplicationContext:674 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca
+2024-12-31 14:23:41 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-12-31 14:23:41 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/order/service/OrderService.class]
+2024-12-31 14:23:41 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/EmployeeService.class]
+2024-12-31 14:23:41 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/aspect/TimerAspect.class]
+2024-12-31 14:23:41 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-12-31 14:23:41 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-12-31 14:23:41 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-12-31 14:23:41 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-12-31 14:23:41 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'appConfig'
+2024-12-31 14:23:41 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.timer.aspect.TimerAspect.calculateMethodExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2024-12-31 14:23:41 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'orderService'
+2024-12-31 14:23:41 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'employeeService'
+2024-12-31 14:23:41 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'timerAspect'
+2024-12-31 14:23:41 INFO  EmployeeService:14 - Performing Employee tasks
+2024-12-31 14:23:43 DEBUG AnnotationConfigApplicationContext:1158 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca, started on Tue Dec 31 14:23:41 EST 2024
+2024-12-31 14:24:51 DEBUG AnnotationConfigApplicationContext:674 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca
+2024-12-31 14:24:51 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-12-31 14:24:51 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/order/service/OrderService.class]
+2024-12-31 14:24:51 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/EmployeeService.class]
+2024-12-31 14:24:51 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/aspect/TimerAspect.class]
+2024-12-31 14:24:51 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-12-31 14:24:51 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-12-31 14:24:51 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-12-31 14:24:51 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-12-31 14:24:51 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'appConfig'
+2024-12-31 14:24:51 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.timer.aspect.TimerAspect.calculateMethodExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2024-12-31 14:24:51 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'orderService'
+2024-12-31 14:24:51 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'employeeService'
+2024-12-31 14:24:51 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'timerAspect'
+2024-12-31 14:24:51 INFO  EmployeeService:15 - Performing Employee tasks
+2024-12-31 14:24:53 INFO  TimerAspect:28 - Execution time for EmployeeService.performTask() : 2006
+2024-12-31 14:24:53 DEBUG AnnotationConfigApplicationContext:1158 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca, started on Tue Dec 31 14:24:51 EST 2024
+2024-12-31 14:25:23 DEBUG AnnotationConfigApplicationContext:674 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@72c8e7b
+2024-12-31 14:25:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-12-31 14:25:23 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/order/service/OrderService.class]
+2024-12-31 14:25:23 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/EmployeeService.class]
+2024-12-31 14:25:23 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/aspect/TimerAspect.class]
+2024-12-31 14:25:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-12-31 14:25:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-12-31 14:25:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-12-31 14:25:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-12-31 14:25:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'appConfig'
+2024-12-31 14:25:23 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.timer.aspect.TimerAspect.calculateMethodExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2024-12-31 14:25:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'orderService'
+2024-12-31 14:25:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'employeeService'
+2024-12-31 14:25:23 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'timerAspect'
+2024-12-31 14:25:23 INFO  EmployeeService:15 - Performing Employee tasks
+2024-12-31 14:25:59 INFO  TimerAspect:28 - Execution time for EmployeeService.performTask() : 2001
+2024-12-31 14:25:59 DEBUG AnnotationConfigApplicationContext:1158 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@72c8e7b, started on Tue Dec 31 14:25:23 EST 2024
+2024-12-31 14:26:04 DEBUG AnnotationConfigApplicationContext:674 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@72c8e7b
+2024-12-31 14:26:04 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-12-31 14:26:04 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/order/service/OrderService.class]
+2024-12-31 14:26:04 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/EmployeeService.class]
+2024-12-31 14:26:04 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/aspect/TimerAspect.class]
+2024-12-31 14:26:04 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-12-31 14:26:04 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-12-31 14:26:04 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-12-31 14:26:04 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-12-31 14:26:04 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'appConfig'
+2024-12-31 14:26:04 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.timer.aspect.TimerAspect.calculateMethodExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2024-12-31 14:26:04 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'orderService'
+2024-12-31 14:26:04 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'employeeService'
+2024-12-31 14:26:04 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'timerAspect'
+2024-12-31 14:26:11 INFO  EmployeeService:15 - Performing Employee tasks
+2024-12-31 14:26:30 INFO  EmployeeService:15 - Performing Employee tasks
+2024-12-31 14:26:47 INFO  TimerAspect:28 - Execution time for EmployeeService.performTask() : 28099
+2024-12-31 14:26:47 DEBUG AnnotationConfigApplicationContext:1158 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@72c8e7b, started on Tue Dec 31 14:26:04 EST 2024
+2024-12-31 14:54:59 DEBUG AnnotationConfigApplicationContext:674 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca
+2024-12-31 14:54:59 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-12-31 14:54:59 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/order/service/OrderService.class]
+2024-12-31 14:54:59 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/EmployeeService.class]
+2024-12-31 14:54:59 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/aspect/TimerAspect.class]
+2024-12-31 14:54:59 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-12-31 14:54:59 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-12-31 14:54:59 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-12-31 14:54:59 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-12-31 14:54:59 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'appConfig'
+2024-12-31 14:54:59 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.timer.aspect.TimerAspect.calculateMethodExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2024-12-31 14:54:59 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'orderService'
+2024-12-31 14:54:59 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'employeeService'
+2024-12-31 14:54:59 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'timerAspect'
+2024-12-31 14:54:59 INFO  EmployeeService:17 - Performing Employee tasks
+2024-12-31 14:55:01 INFO  TimerAspect:28 - Execution time for EmployeeService.performTask() : 2006
+2024-12-31 14:55:01 DEBUG AnnotationConfigApplicationContext:1158 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca, started on Tue Dec 31 14:54:59 EST 2024
