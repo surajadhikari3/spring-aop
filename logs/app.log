@@ -98,3 +98,91 @@
 2024-12-31 14:54:59 INFO  EmployeeService:17 - Performing Employee tasks
 2024-12-31 14:55:01 INFO  TimerAspect:28 - Execution time for EmployeeService.performTask() : 2006
 2024-12-31 14:55:01 DEBUG AnnotationConfigApplicationContext:1158 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca, started on Tue Dec 31 14:54:59 EST 2024
+2024-12-31 16:39:28 DEBUG AnnotationConfigApplicationContext:674 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca
+2024-12-31 16:39:28 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-12-31 16:39:28 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/CacheManager.class]
+2024-12-31 16:39:28 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/aspect/CacheAspect.class]
+2024-12-31 16:39:28 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/service/ProductService.class]
+2024-12-31 16:39:28 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/EmployeeService.class]
+2024-12-31 16:39:28 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/aspect/TimerAspect.class]
+2024-12-31 16:39:28 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-12-31 16:39:28 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-12-31 16:39:28 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-12-31 16:39:28 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-12-31 16:39:28 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'appConfig'
+2024-12-31 16:39:28 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.cache.aspect.CacheAspect.cacheMethod(org.aspectj.lang.ProceedingJoinPoint,io.reactivestax.cache.Cache) throws java.lang.Throwable
+2024-12-31 16:39:28 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public void io.reactivestax.cache.aspect.CacheAspect.evictCache(io.reactivestax.cache.CacheEvict)
+2024-12-31 16:39:28 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.timer.aspect.TimerAspect.calculateMethodExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2024-12-31 16:39:29 DEBUG AspectJExpressionPointcut:301 - Pointcut parser rejected expression [cacheEvictionMethod(cacheEvict)]: java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut cacheEvictionMethod
+2024-12-31 16:39:29 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'cacheManager'
+2024-12-31 16:39:29 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'cacheAspect'
+2024-12-31 16:39:29 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'productService'
+2024-12-31 16:39:29 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'employeeService'
+2024-12-31 16:39:29 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'timerAspect'
+2024-12-31 16:39:29 DEBUG AnnotationConfigApplicationContext:1158 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca, started on Tue Dec 31 16:39:28 EST 2024
+2024-12-31 16:39:38 DEBUG AnnotationConfigApplicationContext:674 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca
+2024-12-31 16:39:38 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-12-31 16:39:39 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/CacheManager.class]
+2024-12-31 16:39:39 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/aspect/CacheAspect.class]
+2024-12-31 16:39:39 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/service/ProductService.class]
+2024-12-31 16:39:39 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/EmployeeService.class]
+2024-12-31 16:39:39 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/aspect/TimerAspect.class]
+2024-12-31 16:39:39 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-12-31 16:39:39 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-12-31 16:39:39 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-12-31 16:39:39 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-12-31 16:39:39 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'appConfig'
+2024-12-31 16:39:39 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.cache.aspect.CacheAspect.cacheMethod(org.aspectj.lang.ProceedingJoinPoint,io.reactivestax.cache.Cache) throws java.lang.Throwable
+2024-12-31 16:39:39 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public void io.reactivestax.cache.aspect.CacheAspect.evictCache(io.reactivestax.cache.CacheEvict)
+2024-12-31 16:39:39 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.timer.aspect.TimerAspect.calculateMethodExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2024-12-31 16:39:39 DEBUG AspectJExpressionPointcut:301 - Pointcut parser rejected expression [cacheEvictionMethod(cacheEvict)]: java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut cacheEvictionMethod
+2024-12-31 16:39:39 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'cacheManager'
+2024-12-31 16:39:39 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'cacheAspect'
+2024-12-31 16:39:39 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'productService'
+2024-12-31 16:39:39 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'employeeService'
+2024-12-31 16:39:39 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'timerAspect'
+2024-12-31 16:39:39 DEBUG AnnotationConfigApplicationContext:1158 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca, started on Tue Dec 31 16:39:38 EST 2024
+2024-12-31 16:40:43 DEBUG AnnotationConfigApplicationContext:674 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca
+2024-12-31 16:40:43 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-12-31 16:40:43 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/CacheManager.class]
+2024-12-31 16:40:43 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/aspect/CacheAspect.class]
+2024-12-31 16:40:43 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/service/ProductService.class]
+2024-12-31 16:40:43 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/EmployeeService.class]
+2024-12-31 16:40:43 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/aspect/TimerAspect.class]
+2024-12-31 16:40:43 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-12-31 16:40:43 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-12-31 16:40:43 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-12-31 16:40:43 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-12-31 16:40:43 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'appConfig'
+2024-12-31 16:40:43 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.cache.aspect.CacheAspect.cacheMethod(org.aspectj.lang.ProceedingJoinPoint,io.reactivestax.cache.Cache) throws java.lang.Throwable
+2024-12-31 16:40:43 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public void io.reactivestax.cache.aspect.CacheAspect.evictCache(io.reactivestax.cache.CacheEvict)
+2024-12-31 16:40:43 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.timer.aspect.TimerAspect.calculateMethodExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2024-12-31 16:40:43 DEBUG AspectJExpressionPointcut:301 - Pointcut parser rejected expression [cacheEvictionMethod(cacheEvict)]: java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut cacheEvictionMethod
+2024-12-31 16:40:43 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'cacheManager'
+2024-12-31 16:40:43 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'cacheAspect'
+2024-12-31 16:40:43 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'productService'
+2024-12-31 16:40:43 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'employeeService'
+2024-12-31 16:40:43 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'timerAspect'
+2024-12-31 16:40:43 DEBUG AnnotationConfigApplicationContext:1158 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca, started on Tue Dec 31 16:40:43 EST 2024
+2024-12-31 16:40:54 DEBUG AnnotationConfigApplicationContext:674 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca
+2024-12-31 16:40:54 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-12-31 16:40:54 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/CacheManager.class]
+2024-12-31 16:40:54 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/aspect/CacheAspect.class]
+2024-12-31 16:40:54 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/cache/service/ProductService.class]
+2024-12-31 16:40:54 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/EmployeeService.class]
+2024-12-31 16:40:54 DEBUG ClassPathBeanDefinitionScanner:476 - Identified candidate component class: file [/Users/Suraj.Adhikari/sources/student-mode-programs/spring-projects/spring-aop/custom-annotations-aop/target/classes/io/reactivestax/timer/aspect/TimerAspect.class]
+2024-12-31 16:40:54 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-12-31 16:40:54 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-12-31 16:40:54 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-12-31 16:40:54 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-12-31 16:40:54 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'appConfig'
+2024-12-31 16:40:54 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.cache.aspect.CacheAspect.cacheMethod(org.aspectj.lang.ProceedingJoinPoint,io.reactivestax.cache.Cache) throws java.lang.Throwable
+2024-12-31 16:40:54 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public void io.reactivestax.cache.aspect.CacheAspect.evictCache(io.reactivestax.cache.CacheEvict)
+2024-12-31 16:40:54 DEBUG ReflectiveAspectJAdvisorFactory:269 - Found AspectJ method: public java.lang.Object io.reactivestax.timer.aspect.TimerAspect.calculateMethodExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2024-12-31 16:40:54 DEBUG AspectJExpressionPointcut:301 - Pointcut parser rejected expression [cacheEvictionMethod(cacheEvict)]: java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut cacheEvictionMethod
+2024-12-31 16:40:54 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'cacheManager'
+2024-12-31 16:40:54 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'cacheAspect'
+2024-12-31 16:40:54 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'productService'
+2024-12-31 16:40:54 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'employeeService'
+2024-12-31 16:40:54 DEBUG DefaultListableBeanFactory:280 - Creating shared instance of singleton bean 'timerAspect'
+2024-12-31 16:40:54 DEBUG AnnotationConfigApplicationContext:1158 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@793be5ca, started on Tue Dec 31 16:40:54 EST 2024

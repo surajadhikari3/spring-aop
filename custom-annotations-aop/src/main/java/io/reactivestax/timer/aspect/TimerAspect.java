@@ -21,7 +21,7 @@ public class TimerAspect {
     public Object calculateMethodExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
         long startTime = System.currentTimeMillis();
         try{
-            return joinPoint.proceed();
+            return joinPoint.proceed(); // call the real method
         } finally {
             long endTime = System.currentTimeMillis();
             String methodName = joinPoint.getSignature().toShortString();
