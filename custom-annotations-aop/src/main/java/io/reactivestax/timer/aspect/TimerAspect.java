@@ -27,6 +27,5 @@ public class TimerAspect {
             String methodName = joinPoint.getSignature().toShortString();
             log.info("Execution time for {} : {}", methodName, endTime-startTime);
         }
-
     }
 }

@@ -7,7 +7,6 @@ import io.reactivestax.cache.CacheManager;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -20,10 +19,12 @@ public class CacheAspect {
     private CacheManager cacheManager;
 
     @Pointcut("@annotation(cache)")
-    public void cacheableMethods(Cache cache){}
+    public void cacheableMethods(Cache cache) {
+    }
 
     @Pointcut("@annotation(cacheEvict)")
-    public void cacheEvictMethod(CacheEvict cacheEvict){}
+    public void cacheEvictionMethod(CacheEvict cacheEvict) {
+    }
 
     @Around(value = "cacheableMethods(cache)")
     public Object cacheMethod(ProceedingJoinPoint joinPoint, Cache cache) throws Throwable {
@@ -31,7 +32,7 @@ public class CacheAspect {
         Object key = joinPoint.getArgs()[0];
         Object cacheValue = cacheManager.retrieveFromCache(cacheName, key);
 
-        if(cacheValue != null){
+        if (cacheValue != null) {
             return cacheValue;
         }
 
@@ -40,12 +41,10 @@ public class CacheAspect {
         return result;
     }
 
-    @Before(value = "cacheEvictionMethod(cacheEvict)")
-    public void evictCache(CacheEvict cacheEvict){
+    @Around(value = "cacheEvictionMethod(cacheEvict)")
+    public void evictCache(CacheEvict cacheEvict) {
         String cacheName = cacheEvict.cacheName();
         cacheManager.evictAll(cacheName);
-
     }
-
 
 }

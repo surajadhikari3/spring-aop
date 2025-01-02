@@ -2,6 +2,7 @@ package io.reactivestax.cache.service;
 
 
 import io.reactivestax.cache.Cache;
+import io.reactivestax.cache.CacheEvict;
 import io.reactivestax.cache.entity.Product;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +13,13 @@ public class ProductService {
     public Product getProductById(int productId, String productName){
         System.out.println("hit the real method");
         return new Product(productId,productName);
+    }
+
+    @CacheEvict(cacheName = "productCache")
+    public void updateProduct(Product product) {
+        // Simulate method logic (e.g., updating product in the database)
+        System.out.println("updating the product..");
+//        product.setProductName(product.getProductName());
     }
 
 }
