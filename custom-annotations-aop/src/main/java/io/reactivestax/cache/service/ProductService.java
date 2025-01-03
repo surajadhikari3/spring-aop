@@ -17,7 +17,6 @@ public class ProductService {
 
     @CacheEvict(cacheName = "productCache")
     public void updateProduct(Product product) {
-        // Simulate method logic (e.g., updating product in the database)
         System.out.println("updating the product..");
 //        product.setProductName(product.getProductName());
     }

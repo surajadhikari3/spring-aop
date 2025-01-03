@@ -16,7 +16,7 @@ public class SynchronizedAspect {
     private final Map<String, Object> locks = new ConcurrentHashMap();
 
     @Around("@annotation(synchronized)")
-    public Object synchroziedExecutiion(ProceedingJoinPoint joinPoint) throws Throwable {
+    public Object synchronizedExecution(ProceedingJoinPoint joinPoint) throws Throwable {
 
         String lockKey = joinPoint.getSignature().toLongString();
         Object lock = locks.computeIfAbsent(lockKey, k -> new Object());
