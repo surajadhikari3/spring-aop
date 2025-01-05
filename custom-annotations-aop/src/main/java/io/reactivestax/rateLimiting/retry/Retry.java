@@ -1,15 +1,13 @@
-package io.reactivestax.cache.rateLimiting;
-
+package io.reactivestax.rateLimiting.retry;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface RateLimit {
-    int maxRequests();
-    long windowTimeMills();
-    String algorithm() default "FIXED_WINDOW";
+@Target(ElementType.METHOD)
+public @interface Retry {
+    int maxRetries();
+    long retryIntervalMillis();
 }
