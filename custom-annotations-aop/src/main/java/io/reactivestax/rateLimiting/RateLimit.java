@@ -1,6 +1,8 @@
 package io.reactivestax.rateLimiting;
 
 
+import io.reactivestax.rateLimiting.enums.RateLimitType;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -11,5 +13,5 @@ import java.lang.annotation.Target;
 public @interface RateLimit {
     int maxRequests();
     long windowTimeMills();
-    String algorithm() default "FIXED_WINDOW";
+    RateLimitType algorithm() default RateLimitType.FIXED_WINDOW;
 }
