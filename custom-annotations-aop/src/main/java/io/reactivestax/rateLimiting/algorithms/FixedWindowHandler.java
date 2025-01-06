@@ -1,6 +1,7 @@
 package io.reactivestax.rateLimiting.algorithms;
 
 import io.reactivestax.rateLimiting.RateLimiter;
+import org.springframework.stereotype.Component;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

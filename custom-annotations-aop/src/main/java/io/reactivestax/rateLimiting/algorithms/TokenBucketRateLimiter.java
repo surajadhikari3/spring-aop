@@ -2,6 +2,7 @@ package io.reactivestax.rateLimiting.algorithms;
 
 import io.reactivestax.rateLimiting.RateLimit;
 import io.reactivestax.rateLimiting.RateLimiter;
+import org.springframework.stereotype.Component;
 
 public class TokenBucketRateLimiter implements RateLimiter {
     private final int maxTokens;

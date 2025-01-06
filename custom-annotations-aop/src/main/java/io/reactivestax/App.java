@@ -3,6 +3,7 @@ package io.reactivestax;
 import io.reactivestax.cache.CacheManager;
 import io.reactivestax.cache.entity.Product;
 import io.reactivestax.cache.service.ProductService;
+import io.reactivestax.rateLimiting.algorithms.TokenBucketRateLimiter;
 import io.reactivestax.synchronization.service.SynchronizedService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -45,9 +46,9 @@ public class App {
 //
 //        log.info("size end {}", cacheManager.getCache().size());
 
-        App mainRunner = context.getBean(App.class);
 
-        mainRunner.testSynchronized();
+        App mainRunner = context.getBean(App.class);
+        mainRunner.implementTokenBasedRateLimiter();
         context.close();
     }
 
@@ -57,7 +58,26 @@ public class App {
         for (int i = 0; i < 10; i++) {
             executorService.submit(() -> synchronizedService.synchronizedSection());
         }
-
         executorService.shutdown();
     }
+
+    public void implementTokenBasedRateLimiter() {
+        TokenBucketRateLimiter rateLimiter = new TokenBucketRateLimiter(5, 5);
+
+        // Simulate 10 requests
+        for (int i = 0; i < 10; i++) {
+            if (rateLimiter.isAllowed()) {
+                System.out.println("Request " + (i + 1) + " allowed.");
+            } else {
+                System.out.println("Request " + (i + 1) + " rate limited.");
+            }
+            // Sleep for 1 second between requests to simulate time passing
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
 }
